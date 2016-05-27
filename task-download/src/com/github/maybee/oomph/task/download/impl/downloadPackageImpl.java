@@ -1,16 +1,17 @@
 /**
  */
-package download.impl;
+package com.github.maybee.oomph.task.download.impl;
 
 import org.eclipse.oomph.setup.SetupPackage;
 
+import org.eclipse.emf.ecore.EAttribute;
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EPackage;
 import org.eclipse.emf.ecore.impl.EPackageImpl;
 
-import download.downloadFactory;
-import download.downloadPackage;
-import download.downloadTask;
+import com.github.maybee.oomph.task.download.downloadFactory;
+import com.github.maybee.oomph.task.download.downloadPackage;
+import com.github.maybee.oomph.task.download.downloadTask;
 
 /**
  * <!-- begin-user-doc -->
@@ -38,7 +39,7 @@ public class downloadPackageImpl extends EPackageImpl implements downloadPackage
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @see org.eclipse.emf.ecore.EPackage.Registry
-   * @see download.downloadPackage#eNS_URI
+   * @see com.github.maybee.oomph.task.download.downloadPackage#eNS_URI
    * @see #init()
    * @generated
    */
@@ -111,6 +112,86 @@ public class downloadPackageImpl extends EPackageImpl implements downloadPackage
    * <!-- end-user-doc -->
    * @generated
    */
+  public EAttribute getdownloadTask_ResourceLocation()
+  {
+    return (EAttribute)downloadTaskEClass.getEStructuralFeatures().get(0);
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  public EAttribute getdownloadTask_IsURL()
+  {
+    return (EAttribute)downloadTaskEClass.getEStructuralFeatures().get(1);
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  public EAttribute getdownloadTask_ConnectionTimeout()
+  {
+    return (EAttribute)downloadTaskEClass.getEStructuralFeatures().get(2);
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  public EAttribute getdownloadTask_ReadTimeout()
+  {
+    return (EAttribute)downloadTaskEClass.getEStructuralFeatures().get(3);
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  public EAttribute getdownloadTask_DestinationPath()
+  {
+    return (EAttribute)downloadTaskEClass.getEStructuralFeatures().get(4);
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  public EAttribute getdownloadTask_DestinationFile()
+  {
+    return (EAttribute)downloadTaskEClass.getEStructuralFeatures().get(5);
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  public EAttribute getdownloadTask_Priority()
+  {
+    return (EAttribute)downloadTaskEClass.getEStructuralFeatures().get(6);
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  public EAttribute getdownloadTask_EstimatedSize()
+  {
+    return (EAttribute)downloadTaskEClass.getEStructuralFeatures().get(7);
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
   public downloadFactory getdownloadFactory()
   {
     return (downloadFactory)getEFactoryInstance();
@@ -140,6 +221,14 @@ public class downloadPackageImpl extends EPackageImpl implements downloadPackage
 
     // Create classes and their features
     downloadTaskEClass = createEClass(DOWNLOAD_TASK);
+    createEAttribute(downloadTaskEClass, DOWNLOAD_TASK__RESOURCE_LOCATION);
+    createEAttribute(downloadTaskEClass, DOWNLOAD_TASK__IS_URL);
+    createEAttribute(downloadTaskEClass, DOWNLOAD_TASK__CONNECTION_TIMEOUT);
+    createEAttribute(downloadTaskEClass, DOWNLOAD_TASK__READ_TIMEOUT);
+    createEAttribute(downloadTaskEClass, DOWNLOAD_TASK__DESTINATION_PATH);
+    createEAttribute(downloadTaskEClass, DOWNLOAD_TASK__DESTINATION_FILE);
+    createEAttribute(downloadTaskEClass, DOWNLOAD_TASK__PRIORITY);
+    createEAttribute(downloadTaskEClass, DOWNLOAD_TASK__ESTIMATED_SIZE);
   }
 
   /**
@@ -181,9 +270,25 @@ public class downloadPackageImpl extends EPackageImpl implements downloadPackage
 
     // Initialize classes and features; add operations and parameters
     initEClass(downloadTaskEClass, downloadTask.class, "downloadTask", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+    initEAttribute(getdownloadTask_ResourceLocation(), ecorePackage.getEString(), "resourceLocation", null, 1, 1, downloadTask.class, !IS_TRANSIENT,
+        !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+    initEAttribute(getdownloadTask_IsURL(), ecorePackage.getEBoolean(), "isURL", "false", 0, 1, downloadTask.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE,
+        !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+    initEAttribute(getdownloadTask_ConnectionTimeout(), ecorePackage.getEInt(), "connectionTimeout", "1000", 0, 1, downloadTask.class, !IS_TRANSIENT,
+        !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+    initEAttribute(getdownloadTask_ReadTimeout(), ecorePackage.getEInt(), "readTimeout", "1500", 0, 1, downloadTask.class, !IS_TRANSIENT, !IS_VOLATILE,
+        IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+    initEAttribute(getdownloadTask_DestinationPath(), ecorePackage.getEString(), "destinationPath", "", 1, 1, downloadTask.class, !IS_TRANSIENT, !IS_VOLATILE,
+        IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+    initEAttribute(getdownloadTask_DestinationFile(), ecorePackage.getEString(), "destinationFile", null, 1, 1, downloadTask.class, !IS_TRANSIENT,
+        !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+    initEAttribute(getdownloadTask_Priority(), ecorePackage.getEInt(), "priority", "500", 0, 1, downloadTask.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE,
+        !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+    initEAttribute(getdownloadTask_EstimatedSize(), ecorePackage.getEInt(), "estimatedSize", "-1", 0, 1, downloadTask.class, !IS_TRANSIENT, !IS_VOLATILE,
+        IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
     // Create resource
-    createResource("https://raw.githubusercontent.com/may-bee/oomph-task-download/master/task-download-updatesite/model/Task-download-1.0.ecore");
+    createResource("https://raw.githubusercontent.com/maybeec/oomph-task-download/master/task-download-updatesite/model/Task-download-1.0.ecore");
 
     // Create annotations
     // http://www.eclipse.org/emf/2002/Ecore
@@ -204,7 +309,7 @@ public class downloadPackageImpl extends EPackageImpl implements downloadPackage
   {
     String source = "http://www.eclipse.org/emf/2002/Ecore";
     addAnnotation(this, source, new String[] { "schemaLocation",
-        "https://raw.githubusercontent.com/may-bee/oomph-task-download/master/task-download-updatesite/model/Task-download-1.0.ecore" });
+        "https://raw.githubusercontent.com/maybeec/oomph-task-download/master/task-download-updatesite/model/Task-download-1.0.ecore" });
   }
 
   /**

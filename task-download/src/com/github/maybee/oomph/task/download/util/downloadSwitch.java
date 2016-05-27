@@ -1,6 +1,6 @@
 /**
  */
-package download.util;
+package com.github.maybee.oomph.task.download.util;
 
 import org.eclipse.oomph.base.ModelElement;
 import org.eclipse.oomph.setup.SetupTask;
@@ -9,8 +9,8 @@ import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EPackage;
 import org.eclipse.emf.ecore.util.Switch;
 
-import download.downloadPackage;
-import download.downloadTask;
+import com.github.maybee.oomph.task.download.downloadPackage;
+import com.github.maybee.oomph.task.download.downloadTask;
 
 /**
  * <!-- begin-user-doc -->
@@ -22,7 +22,7 @@ import download.downloadTask;
  * until a non-null result is returned,
  * which is the result of the switch.
  * <!-- end-user-doc -->
- * @see download.downloadPackage
+ * @see com.github.maybee.oomph.task.download.downloadPackage
  * @generated
  */
 public class downloadSwitch<T> extends Switch<T>
