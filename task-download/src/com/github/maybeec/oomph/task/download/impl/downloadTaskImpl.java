@@ -1,6 +1,6 @@
 /**
  */
-package com.github.maybee.oomph.task.download.impl;
+package com.github.maybeec.oomph.task.download.impl;
 
 import org.eclipse.oomph.setup.SetupTaskContext;
 import org.eclipse.oomph.setup.impl.SetupTaskImpl;
@@ -9,10 +9,10 @@ import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
 
-import com.github.maybee.oomph.task.download.downloadPackage;
-import com.github.maybee.oomph.task.download.downloadTask;
-import com.github.maybee.oomph.task.download.core.DownloadUtil;
-import com.github.maybee.oomph.task.download.core.SetupTaskLogger;
+import com.github.maybeec.oomph.task.download.downloadPackage;
+import com.github.maybeec.oomph.task.download.downloadTask;
+import com.github.maybeec.oomph.task.download.core.DownloadUtil;
+import com.github.maybeec.oomph.task.download.core.SetupTaskLogger;
 
 /**
  * <!-- begin-user-doc -->
@@ -21,14 +21,14 @@ import com.github.maybee.oomph.task.download.core.SetupTaskLogger;
  * <p>
  * The following features are implemented:
  * <ul>
- *   <li>{@link com.github.maybee.oomph.task.download.impl.downloadTaskImpl#getResourceLocation <em>Resource Location</em>}</li>
- *   <li>{@link com.github.maybee.oomph.task.download.impl.downloadTaskImpl#isIsURL <em>Is URL</em>}</li>
- *   <li>{@link com.github.maybee.oomph.task.download.impl.downloadTaskImpl#getConnectionTimeout <em>Connection Timeout</em>}</li>
- *   <li>{@link com.github.maybee.oomph.task.download.impl.downloadTaskImpl#getReadTimeout <em>Read Timeout</em>}</li>
- *   <li>{@link com.github.maybee.oomph.task.download.impl.downloadTaskImpl#getDestinationPath <em>Destination Path</em>}</li>
- *   <li>{@link com.github.maybee.oomph.task.download.impl.downloadTaskImpl#getDestinationFile <em>Destination File</em>}</li>
- *   <li>{@link com.github.maybee.oomph.task.download.impl.downloadTaskImpl#getPriority <em>Priority</em>}</li>
- *   <li>{@link com.github.maybee.oomph.task.download.impl.downloadTaskImpl#getEstimatedSize <em>Estimated Size</em>}</li>
+ *   <li>{@link com.github.maybeec.oomph.task.download.impl.downloadTaskImpl#getResourceLocation <em>Resource Location</em>}</li>
+ *   <li>{@link com.github.maybeec.oomph.task.download.impl.downloadTaskImpl#isIsURL <em>Is URL</em>}</li>
+ *   <li>{@link com.github.maybeec.oomph.task.download.impl.downloadTaskImpl#getConnectionTimeout <em>Connection Timeout</em>}</li>
+ *   <li>{@link com.github.maybeec.oomph.task.download.impl.downloadTaskImpl#getReadTimeout <em>Read Timeout</em>}</li>
+ *   <li>{@link com.github.maybeec.oomph.task.download.impl.downloadTaskImpl#getDestinationPath <em>Destination Path</em>}</li>
+ *   <li>{@link com.github.maybeec.oomph.task.download.impl.downloadTaskImpl#getDestinationFile <em>Destination File</em>}</li>
+ *   <li>{@link com.github.maybeec.oomph.task.download.impl.downloadTaskImpl#getPriority <em>Priority</em>}</li>
+ *   <li>{@link com.github.maybeec.oomph.task.download.impl.downloadTaskImpl#getEstimatedSize <em>Estimated Size</em>}</li>
  * </ul>
  * </p>
  *

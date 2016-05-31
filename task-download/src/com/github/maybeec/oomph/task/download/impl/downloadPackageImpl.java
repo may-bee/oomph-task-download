@@ -1,6 +1,6 @@
 /**
  */
-package com.github.maybee.oomph.task.download.impl;
+package com.github.maybeec.oomph.task.download.impl;
 
 import org.eclipse.oomph.setup.SetupPackage;
 
@@ -9,9 +9,9 @@ import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EPackage;
 import org.eclipse.emf.ecore.impl.EPackageImpl;
 
-import com.github.maybee.oomph.task.download.downloadFactory;
-import com.github.maybee.oomph.task.download.downloadPackage;
-import com.github.maybee.oomph.task.download.downloadTask;
+import com.github.maybeec.oomph.task.download.downloadFactory;
+import com.github.maybeec.oomph.task.download.downloadPackage;
+import com.github.maybeec.oomph.task.download.downloadTask;
 
 /**
  * <!-- begin-user-doc -->
@@ -39,7 +39,7 @@ public class downloadPackageImpl extends EPackageImpl implements downloadPackage
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @see org.eclipse.emf.ecore.EPackage.Registry
-   * @see com.github.maybee.oomph.task.download.downloadPackage#eNS_URI
+   * @see com.github.maybeec.oomph.task.download.downloadPackage#eNS_URI
    * @see #init()
    * @generated
    */

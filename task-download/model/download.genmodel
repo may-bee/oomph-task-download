@@ -3,7 +3,7 @@
     modelDirectory="/task-download/src"
     creationIcons="false"
     editorDirectory=""
-    modelPluginID="com.github.maybee.oomph.task.download"
+    modelPluginID="com.github.maybeec.oomph.task.download"
     modelName="download"
     rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
     importerID="org.eclipse.emf.importer.ecore"
@@ -17,7 +17,7 @@
   <foreignModel>download.ecore</foreignModel>
   <genPackages
       prefix="download"
-      basePackage="com.github.maybee.oomph.task"
+      basePackage="com.github.maybeec.oomph.task"
       disposableProviderFactory="true"
       multipleEditorPages="false"
       generateModelWizard="false"

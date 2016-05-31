@@ -1,9 +1,9 @@
 /**
  *
  */
-package com.github.maybee.oomph.task.download.core;
+package com.github.maybeec.oomph.task.download.core;
 
-import com.github.maybee.oomph.task.download.core.impl.DownloadUtilImpl;
+import com.github.maybeec.oomph.task.download.core.impl.DownloadUtilImpl;
 
 /**
  * @author sholzer

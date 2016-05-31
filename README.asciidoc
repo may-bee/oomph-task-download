@@ -18,7 +18,7 @@ We haven't released yet. So this doesn't work for now.
 * Now you can add the following snippet to your Setup file
 [source, xml]
 <setupTask
-    xsi:type="com.github.maybee.oomph.task:download"
+    xsi:type="com.github.maybeec.oomph.task:download"
     id="reorder.nodejs.2"
     excludedTriggers="STARTUP"
     resourceLocation="http://abc.de/fgh.jkl"

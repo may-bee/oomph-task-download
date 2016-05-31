@@ -1,6 +1,6 @@
 /**
  */
-package com.github.maybee.oomph.task.download;
+package com.github.maybeec.oomph.task.download;
 
 import org.eclipse.oomph.setup.SetupTask;
 
@@ -12,18 +12,18 @@ import org.eclipse.oomph.setup.SetupTask;
  * <p>
  * The following features are supported:
  * <ul>
- *   <li>{@link com.github.maybee.oomph.task.download.downloadTask#getResourceLocation <em>Resource Location</em>}</li>
- *   <li>{@link com.github.maybee.oomph.task.download.downloadTask#isIsURL <em>Is URL</em>}</li>
- *   <li>{@link com.github.maybee.oomph.task.download.downloadTask#getConnectionTimeout <em>Connection Timeout</em>}</li>
- *   <li>{@link com.github.maybee.oomph.task.download.downloadTask#getReadTimeout <em>Read Timeout</em>}</li>
- *   <li>{@link com.github.maybee.oomph.task.download.downloadTask#getDestinationPath <em>Destination Path</em>}</li>
- *   <li>{@link com.github.maybee.oomph.task.download.downloadTask#getDestinationFile <em>Destination File</em>}</li>
- *   <li>{@link com.github.maybee.oomph.task.download.downloadTask#getPriority <em>Priority</em>}</li>
- *   <li>{@link com.github.maybee.oomph.task.download.downloadTask#getEstimatedSize <em>Estimated Size</em>}</li>
+ *   <li>{@link com.github.maybeec.oomph.task.download.downloadTask#getResourceLocation <em>Resource Location</em>}</li>
+ *   <li>{@link com.github.maybeec.oomph.task.download.downloadTask#isIsURL <em>Is URL</em>}</li>
+ *   <li>{@link com.github.maybeec.oomph.task.download.downloadTask#getConnectionTimeout <em>Connection Timeout</em>}</li>
+ *   <li>{@link com.github.maybeec.oomph.task.download.downloadTask#getReadTimeout <em>Read Timeout</em>}</li>
+ *   <li>{@link com.github.maybeec.oomph.task.download.downloadTask#getDestinationPath <em>Destination Path</em>}</li>
+ *   <li>{@link com.github.maybeec.oomph.task.download.downloadTask#getDestinationFile <em>Destination File</em>}</li>
+ *   <li>{@link com.github.maybeec.oomph.task.download.downloadTask#getPriority <em>Priority</em>}</li>
+ *   <li>{@link com.github.maybeec.oomph.task.download.downloadTask#getEstimatedSize <em>Estimated Size</em>}</li>
  * </ul>
  * </p>
  *
- * @see com.github.maybee.oomph.task.download.downloadPackage#getdownloadTask()
+ * @see com.github.maybeec.oomph.task.download.downloadPackage#getdownloadTask()
  * @model annotation="http://www.eclipse.org/oomph/setup/Enablement variableName='p2.download' repository='http://download.example.org/task-download/updates' installableUnits='task-download.feature.group'"
  *        annotation="http://www.eclipse.org/oomph/setup/ValidTriggers triggers='BOOTSTRAP STARTUP MANUAL'"
  * @generated
@@ -40,14 +40,14 @@ public interface downloadTask extends SetupTask
    * <!-- end-user-doc -->
    * @return the value of the '<em>Resource Location</em>' attribute.
    * @see #setResourceLocation(String)
-   * @see com.github.maybee.oomph.task.download.downloadPackage#getdownloadTask_ResourceLocation()
+   * @see com.github.maybeec.oomph.task.download.downloadPackage#getdownloadTask_ResourceLocation()
    * @model required="true"
    * @generated
    */
   String getResourceLocation();
 
   /**
-   * Sets the value of the '{@link com.github.maybee.oomph.task.download.downloadTask#getResourceLocation <em>Resource Location</em>}' attribute.
+   * Sets the value of the '{@link com.github.maybeec.oomph.task.download.downloadTask#getResourceLocation <em>Resource Location</em>}' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @param value the new value of the '<em>Resource Location</em>' attribute.
@@ -67,14 +67,14 @@ public interface downloadTask extends SetupTask
    * <!-- end-user-doc -->
    * @return the value of the '<em>Is URL</em>' attribute.
    * @see #setIsURL(boolean)
-   * @see com.github.maybee.oomph.task.download.downloadPackage#getdownloadTask_IsURL()
+   * @see com.github.maybeec.oomph.task.download.downloadPackage#getdownloadTask_IsURL()
    * @model default="false"
    * @generated
    */
   boolean isIsURL();
 
   /**
-   * Sets the value of the '{@link com.github.maybee.oomph.task.download.downloadTask#isIsURL <em>Is URL</em>}' attribute.
+   * Sets the value of the '{@link com.github.maybeec.oomph.task.download.downloadTask#isIsURL <em>Is URL</em>}' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @param value the new value of the '<em>Is URL</em>' attribute.
@@ -94,14 +94,14 @@ public interface downloadTask extends SetupTask
    * <!-- end-user-doc -->
    * @return the value of the '<em>Connection Timeout</em>' attribute.
    * @see #setConnectionTimeout(int)
-   * @see com.github.maybee.oomph.task.download.downloadPackage#getdownloadTask_ConnectionTimeout()
+   * @see com.github.maybeec.oomph.task.download.downloadPackage#getdownloadTask_ConnectionTimeout()
    * @model default="1000"
    * @generated
    */
   int getConnectionTimeout();
 
   /**
-   * Sets the value of the '{@link com.github.maybee.oomph.task.download.downloadTask#getConnectionTimeout <em>Connection Timeout</em>}' attribute.
+   * Sets the value of the '{@link com.github.maybeec.oomph.task.download.downloadTask#getConnectionTimeout <em>Connection Timeout</em>}' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @param value the new value of the '<em>Connection Timeout</em>' attribute.
@@ -121,14 +121,14 @@ public interface downloadTask extends SetupTask
    * <!-- end-user-doc -->
    * @return the value of the '<em>Read Timeout</em>' attribute.
    * @see #setReadTimeout(int)
-   * @see com.github.maybee.oomph.task.download.downloadPackage#getdownloadTask_ReadTimeout()
+   * @see com.github.maybeec.oomph.task.download.downloadPackage#getdownloadTask_ReadTimeout()
    * @model default="1500"
    * @generated
    */
   int getReadTimeout();
 
   /**
-   * Sets the value of the '{@link com.github.maybee.oomph.task.download.downloadTask#getReadTimeout <em>Read Timeout</em>}' attribute.
+   * Sets the value of the '{@link com.github.maybeec.oomph.task.download.downloadTask#getReadTimeout <em>Read Timeout</em>}' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @param value the new value of the '<em>Read Timeout</em>' attribute.
@@ -148,14 +148,14 @@ public interface downloadTask extends SetupTask
    * <!-- end-user-doc -->
    * @return the value of the '<em>Destination Path</em>' attribute.
    * @see #setDestinationPath(String)
-   * @see com.github.maybee.oomph.task.download.downloadPackage#getdownloadTask_DestinationPath()
+   * @see com.github.maybeec.oomph.task.download.downloadPackage#getdownloadTask_DestinationPath()
    * @model default="" required="true"
    * @generated
    */
   String getDestinationPath();
 
   /**
-   * Sets the value of the '{@link com.github.maybee.oomph.task.download.downloadTask#getDestinationPath <em>Destination Path</em>}' attribute.
+   * Sets the value of the '{@link com.github.maybeec.oomph.task.download.downloadTask#getDestinationPath <em>Destination Path</em>}' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @param value the new value of the '<em>Destination Path</em>' attribute.
@@ -174,14 +174,14 @@ public interface downloadTask extends SetupTask
    * <!-- end-user-doc -->
    * @return the value of the '<em>Destination File</em>' attribute.
    * @see #setDestinationFile(String)
-   * @see com.github.maybee.oomph.task.download.downloadPackage#getdownloadTask_DestinationFile()
+   * @see com.github.maybeec.oomph.task.download.downloadPackage#getdownloadTask_DestinationFile()
    * @model required="true"
    * @generated
    */
   String getDestinationFile();
 
   /**
-   * Sets the value of the '{@link com.github.maybee.oomph.task.download.downloadTask#getDestinationFile <em>Destination File</em>}' attribute.
+   * Sets the value of the '{@link com.github.maybeec.oomph.task.download.downloadTask#getDestinationFile <em>Destination File</em>}' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @param value the new value of the '<em>Destination File</em>' attribute.
@@ -201,14 +201,14 @@ public interface downloadTask extends SetupTask
    * <!-- end-user-doc -->
    * @return the value of the '<em>Priority</em>' attribute.
    * @see #setPriority(int)
-   * @see com.github.maybee.oomph.task.download.downloadPackage#getdownloadTask_Priority()
+   * @see com.github.maybeec.oomph.task.download.downloadPackage#getdownloadTask_Priority()
    * @model default="500"
    * @generated
    */
   int getPriority();
 
   /**
-   * Sets the value of the '{@link com.github.maybee.oomph.task.download.downloadTask#getPriority <em>Priority</em>}' attribute.
+   * Sets the value of the '{@link com.github.maybeec.oomph.task.download.downloadTask#getPriority <em>Priority</em>}' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @param value the new value of the '<em>Priority</em>' attribute.
@@ -228,14 +228,14 @@ public interface downloadTask extends SetupTask
    * <!-- end-user-doc -->
    * @return the value of the '<em>Estimated Size</em>' attribute.
    * @see #setEstimatedSize(int)
-   * @see com.github.maybee.oomph.task.download.downloadPackage#getdownloadTask_EstimatedSize()
+   * @see com.github.maybeec.oomph.task.download.downloadPackage#getdownloadTask_EstimatedSize()
    * @model default="-1"
    * @generated
    */
   int getEstimatedSize();
 
   /**
-   * Sets the value of the '{@link com.github.maybee.oomph.task.download.downloadTask#getEstimatedSize <em>Estimated Size</em>}' attribute.
+   * Sets the value of the '{@link com.github.maybeec.oomph.task.download.downloadTask#getEstimatedSize <em>Estimated Size</em>}' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @param value the new value of the '<em>Estimated Size</em>' attribute.

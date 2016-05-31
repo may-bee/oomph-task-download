@@ -1,6 +1,6 @@
 /**
  */
-package com.github.maybee.oomph.task.download.provider;
+package com.github.maybeec.oomph.task.download.provider;
 
 import org.eclipse.oomph.setup.provider.SetupTaskItemProvider;
 
@@ -11,14 +11,14 @@ import org.eclipse.emf.edit.provider.IItemPropertyDescriptor;
 import org.eclipse.emf.edit.provider.ItemPropertyDescriptor;
 import org.eclipse.emf.edit.provider.ViewerNotification;
 
-import com.github.maybee.oomph.task.download.downloadPackage;
-import com.github.maybee.oomph.task.download.downloadTask;
+import com.github.maybeec.oomph.task.download.downloadPackage;
+import com.github.maybeec.oomph.task.download.downloadTask;
 
 import java.util.Collection;
 import java.util.List;
 
 /**
- * This is the item provider adapter for a {@link com.github.maybee.oomph.task.download.downloadTask} object.
+ * This is the item provider adapter for a {@link com.github.maybeec.oomph.task.download.downloadTask} object.
  * <!-- begin-user-doc -->
  * <!-- end-user-doc -->
  * @generated

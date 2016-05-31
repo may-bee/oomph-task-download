@@ -1,6 +1,6 @@
 /**
  */
-package com.github.maybee.oomph.task.download;
+package com.github.maybeec.oomph.task.download;
 
 import org.eclipse.oomph.setup.SetupPackage;
 
@@ -19,7 +19,7 @@ import org.eclipse.emf.ecore.EPackage;
  *   <li>and each data type</li>
  * </ul>
  * <!-- end-user-doc -->
- * @see com.github.maybee.oomph.task.download.downloadFactory
+ * @see com.github.maybeec.oomph.task.download.downloadFactory
  * @model kind="package"
  *        annotation="http://www.eclipse.org/emf/2002/Ecore schemaLocation='https://raw.githubusercontent.com/maybeec/oomph-task-download/master/task-download-updatesite/model/Task-download-1.0.ecore'"
  * @generated
@@ -48,7 +48,7 @@ public interface downloadPackage extends EPackage
    * <!-- end-user-doc -->
    * @generated
    */
-  String eNS_PREFIX = "com.github.maybee.oomph.task";
+  String eNS_PREFIX = "com.github.maybeec.oomph.task";
 
   /**
    * The singleton instance of the package.
@@ -56,14 +56,14 @@ public interface downloadPackage extends EPackage
    * <!-- end-user-doc -->
    * @generated
    */
-  downloadPackage eINSTANCE = com.github.maybee.oomph.task.download.impl.downloadPackageImpl.init();
+  downloadPackage eINSTANCE = com.github.maybeec.oomph.task.download.impl.downloadPackageImpl.init();
 
   /**
-   * The meta object id for the '{@link com.github.maybee.oomph.task.download.impl.downloadTaskImpl <em>Task</em>}' class.
+   * The meta object id for the '{@link com.github.maybeec.oomph.task.download.impl.downloadTaskImpl <em>Task</em>}' class.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
-   * @see com.github.maybee.oomph.task.download.impl.downloadTaskImpl
-   * @see com.github.maybee.oomph.task.download.impl.downloadPackageImpl#getdownloadTask()
+   * @see com.github.maybeec.oomph.task.download.impl.downloadTaskImpl
+   * @see com.github.maybeec.oomph.task.download.impl.downloadPackageImpl#getdownloadTask()
    * @generated
    */
   int DOWNLOAD_TASK = 0;
@@ -240,98 +240,98 @@ public interface downloadPackage extends EPackage
   int DOWNLOAD_TASK_FEATURE_COUNT = SetupPackage.SETUP_TASK_FEATURE_COUNT + 8;
 
   /**
-   * Returns the meta object for class '{@link com.github.maybee.oomph.task.download.downloadTask <em>Task</em>}'.
+   * Returns the meta object for class '{@link com.github.maybeec.oomph.task.download.downloadTask <em>Task</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the meta object for class '<em>Task</em>'.
-   * @see com.github.maybee.oomph.task.download.downloadTask
+   * @see com.github.maybeec.oomph.task.download.downloadTask
    * @generated
    */
   EClass getdownloadTask();
 
   /**
-   * Returns the meta object for the attribute '{@link com.github.maybee.oomph.task.download.downloadTask#getResourceLocation <em>Resource Location</em>}'.
+   * Returns the meta object for the attribute '{@link com.github.maybeec.oomph.task.download.downloadTask#getResourceLocation <em>Resource Location</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the meta object for the attribute '<em>Resource Location</em>'.
-   * @see com.github.maybee.oomph.task.download.downloadTask#getResourceLocation()
+   * @see com.github.maybeec.oomph.task.download.downloadTask#getResourceLocation()
    * @see #getdownloadTask()
    * @generated
    */
   EAttribute getdownloadTask_ResourceLocation();
 
   /**
-   * Returns the meta object for the attribute '{@link com.github.maybee.oomph.task.download.downloadTask#isIsURL <em>Is URL</em>}'.
+   * Returns the meta object for the attribute '{@link com.github.maybeec.oomph.task.download.downloadTask#isIsURL <em>Is URL</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the meta object for the attribute '<em>Is URL</em>'.
-   * @see com.github.maybee.oomph.task.download.downloadTask#isIsURL()
+   * @see com.github.maybeec.oomph.task.download.downloadTask#isIsURL()
    * @see #getdownloadTask()
    * @generated
    */
   EAttribute getdownloadTask_IsURL();
 
   /**
-   * Returns the meta object for the attribute '{@link com.github.maybee.oomph.task.download.downloadTask#getConnectionTimeout <em>Connection Timeout</em>}'.
+   * Returns the meta object for the attribute '{@link com.github.maybeec.oomph.task.download.downloadTask#getConnectionTimeout <em>Connection Timeout</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the meta object for the attribute '<em>Connection Timeout</em>'.
-   * @see com.github.maybee.oomph.task.download.downloadTask#getConnectionTimeout()
+   * @see com.github.maybeec.oomph.task.download.downloadTask#getConnectionTimeout()
    * @see #getdownloadTask()
    * @generated
    */
   EAttribute getdownloadTask_ConnectionTimeout();
 
   /**
-   * Returns the meta object for the attribute '{@link com.github.maybee.oomph.task.download.downloadTask#getReadTimeout <em>Read Timeout</em>}'.
+   * Returns the meta object for the attribute '{@link com.github.maybeec.oomph.task.download.downloadTask#getReadTimeout <em>Read Timeout</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the meta object for the attribute '<em>Read Timeout</em>'.
-   * @see com.github.maybee.oomph.task.download.downloadTask#getReadTimeout()
+   * @see com.github.maybeec.oomph.task.download.downloadTask#getReadTimeout()
    * @see #getdownloadTask()
    * @generated
    */
   EAttribute getdownloadTask_ReadTimeout();
 
   /**
-   * Returns the meta object for the attribute '{@link com.github.maybee.oomph.task.download.downloadTask#getDestinationPath <em>Destination Path</em>}'.
+   * Returns the meta object for the attribute '{@link com.github.maybeec.oomph.task.download.downloadTask#getDestinationPath <em>Destination Path</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the meta object for the attribute '<em>Destination Path</em>'.
-   * @see com.github.maybee.oomph.task.download.downloadTask#getDestinationPath()
+   * @see com.github.maybeec.oomph.task.download.downloadTask#getDestinationPath()
    * @see #getdownloadTask()
    * @generated
    */
   EAttribute getdownloadTask_DestinationPath();
 
   /**
-   * Returns the meta object for the attribute '{@link com.github.maybee.oomph.task.download.downloadTask#getDestinationFile <em>Destination File</em>}'.
+   * Returns the meta object for the attribute '{@link com.github.maybeec.oomph.task.download.downloadTask#getDestinationFile <em>Destination File</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the meta object for the attribute '<em>Destination File</em>'.
-   * @see com.github.maybee.oomph.task.download.downloadTask#getDestinationFile()
+   * @see com.github.maybeec.oomph.task.download.downloadTask#getDestinationFile()
    * @see #getdownloadTask()
    * @generated
    */
   EAttribute getdownloadTask_DestinationFile();
 
   /**
-   * Returns the meta object for the attribute '{@link com.github.maybee.oomph.task.download.downloadTask#getPriority <em>Priority</em>}'.
+   * Returns the meta object for the attribute '{@link com.github.maybeec.oomph.task.download.downloadTask#getPriority <em>Priority</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the meta object for the attribute '<em>Priority</em>'.
-   * @see com.github.maybee.oomph.task.download.downloadTask#getPriority()
+   * @see com.github.maybeec.oomph.task.download.downloadTask#getPriority()
    * @see #getdownloadTask()
    * @generated
    */
   EAttribute getdownloadTask_Priority();
 
   /**
-   * Returns the meta object for the attribute '{@link com.github.maybee.oomph.task.download.downloadTask#getEstimatedSize <em>Estimated Size</em>}'.
+   * Returns the meta object for the attribute '{@link com.github.maybeec.oomph.task.download.downloadTask#getEstimatedSize <em>Estimated Size</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the meta object for the attribute '<em>Estimated Size</em>'.
-   * @see com.github.maybee.oomph.task.download.downloadTask#getEstimatedSize()
+   * @see com.github.maybeec.oomph.task.download.downloadTask#getEstimatedSize()
    * @see #getdownloadTask()
    * @generated
    */
@@ -361,11 +361,11 @@ public interface downloadPackage extends EPackage
   interface Literals
   {
     /**
-     * The meta object literal for the '{@link com.github.maybee.oomph.task.download.impl.downloadTaskImpl <em>Task</em>}' class.
+     * The meta object literal for the '{@link com.github.maybeec.oomph.task.download.impl.downloadTaskImpl <em>Task</em>}' class.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see com.github.maybee.oomph.task.download.impl.downloadTaskImpl
-     * @see com.github.maybee.oomph.task.download.impl.downloadPackageImpl#getdownloadTask()
+     * @see com.github.maybeec.oomph.task.download.impl.downloadTaskImpl
+     * @see com.github.maybeec.oomph.task.download.impl.downloadPackageImpl#getdownloadTask()
      * @generated
      */
     EClass DOWNLOAD_TASK = eINSTANCE.getdownloadTask();

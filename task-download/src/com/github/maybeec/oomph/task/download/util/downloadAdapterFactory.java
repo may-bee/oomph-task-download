@@ -1,6 +1,6 @@
 /**
  */
-package com.github.maybee.oomph.task.download.util;
+package com.github.maybeec.oomph.task.download.util;
 
 import org.eclipse.oomph.base.ModelElement;
 import org.eclipse.oomph.setup.SetupTask;
@@ -10,15 +10,15 @@ import org.eclipse.emf.common.notify.Notifier;
 import org.eclipse.emf.common.notify.impl.AdapterFactoryImpl;
 import org.eclipse.emf.ecore.EObject;
 
-import com.github.maybee.oomph.task.download.downloadPackage;
-import com.github.maybee.oomph.task.download.downloadTask;
+import com.github.maybeec.oomph.task.download.downloadPackage;
+import com.github.maybeec.oomph.task.download.downloadTask;
 
 /**
  * <!-- begin-user-doc -->
  * The <b>Adapter Factory</b> for the model.
  * It provides an adapter <code>createXXX</code> method for each class of the model.
  * <!-- end-user-doc -->
- * @see com.github.maybee.oomph.task.download.downloadPackage
+ * @see com.github.maybeec.oomph.task.download.downloadPackage
  * @generated
  */
 public class downloadAdapterFactory extends AdapterFactoryImpl
@@ -115,13 +115,13 @@ public class downloadAdapterFactory extends AdapterFactoryImpl
   }
 
   /**
-   * Creates a new adapter for an object of class '{@link com.github.maybee.oomph.task.download.downloadTask <em>Task</em>}'.
+   * Creates a new adapter for an object of class '{@link com.github.maybeec.oomph.task.download.downloadTask <em>Task</em>}'.
    * <!-- begin-user-doc -->
    * This default implementation returns null so that we can easily ignore cases;
    * it's useful to ignore a case when inheritance will catch all the cases anyway.
    * <!-- end-user-doc -->
    * @return the new adapter.
-   * @see com.github.maybee.oomph.task.download.downloadTask
+   * @see com.github.maybeec.oomph.task.download.downloadTask
    * @generated
    */
   public Adapter createdownloadTaskAdapter()

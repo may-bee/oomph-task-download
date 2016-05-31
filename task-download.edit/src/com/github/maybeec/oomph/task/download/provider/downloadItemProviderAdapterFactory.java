@@ -1,6 +1,6 @@
 /**
  */
-package com.github.maybee.oomph.task.download.provider;
+package com.github.maybeec.oomph.task.download.provider;
 
 import org.eclipse.oomph.base.Annotation;
 import org.eclipse.oomph.base.BasePackage;
@@ -30,9 +30,9 @@ import org.eclipse.emf.edit.provider.INotifyChangedListener;
 import org.eclipse.emf.edit.provider.IStructuredItemContentProvider;
 import org.eclipse.emf.edit.provider.ITreeItemContentProvider;
 
-import com.github.maybee.oomph.task.download.downloadFactory;
-import com.github.maybee.oomph.task.download.downloadPackage;
-import com.github.maybee.oomph.task.download.util.downloadAdapterFactory;
+import com.github.maybeec.oomph.task.download.downloadFactory;
+import com.github.maybeec.oomph.task.download.downloadPackage;
+import com.github.maybeec.oomph.task.download.util.downloadAdapterFactory;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -98,7 +98,7 @@ public class downloadItemProviderAdapterFactory extends downloadAdapterFactory i
   }
 
   /**
-   * This keeps track of the one adapter used for all {@link com.github.maybee.oomph.task.download.downloadTask} instances.
+   * This keeps track of the one adapter used for all {@link com.github.maybeec.oomph.task.download.downloadTask} instances.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @generated
@@ -106,7 +106,7 @@ public class downloadItemProviderAdapterFactory extends downloadAdapterFactory i
   protected downloadTaskItemProvider downloadTaskItemProvider;
 
   /**
-   * This creates an adapter for a {@link com.github.maybee.oomph.task.download.downloadTask}.
+   * This creates an adapter for a {@link com.github.maybeec.oomph.task.download.downloadTask}.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @generated

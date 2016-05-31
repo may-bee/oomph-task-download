@@ -1,10 +1,10 @@
 /**
  *
  */
-package com.github.maybee.oomph.task.download.core.impl;
+package com.github.maybeec.oomph.task.download.core.impl;
 
-import com.github.maybee.oomph.task.download.core.DownloadUtil;
-import com.github.maybee.oomph.task.download.core.SetupTaskLogger;
+import com.github.maybeec.oomph.task.download.core.DownloadUtil;
+import com.github.maybeec.oomph.task.download.core.SetupTaskLogger;
 
 import java.io.File;
 import java.net.URL;
