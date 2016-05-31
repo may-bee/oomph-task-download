@@ -1,0 +1,39 @@
+= Oomph Download Setup Task
+
+== Purpose
+The `oomph-download-task` is an extension for the https://projects.eclipse.org/proposals/oomph[Eclipse Oomph Installer] that allows to download resources during the setup. The `downloadTask` uses the *Apachae commons-io FileUtils* library to download the resources.
+
+== Restrictions
+At the moment this extension works only for directly accessible resources. Using an URL that needs some kind of login, uses redirection or wants other information of the user are not supported (e.g. the Java JRE/JDK needs you to accept their terms and conditions before downloading).
+
+== Usage
+
+* Include `http://www.example.org/task-download/1.0 https://raw.githubusercontent.com/maybeec/oomph-task-download/master/task-download-updatesite/model/Task-download-1.0.ecore` at `xsi:schemaLocation` in your Setup file so that the oomph installer can find the required packages.
+
+[WARNING]
+====
+We haven't released yet. So this doesn't work for now.
+====
+
+* Now you can add the following snippet to your Setup file
+[source, xml]
+<setupTask
+    xsi:type="com.github.maybee.oomph.task:download"
+    id="reorder.nodejs.2"
+    excludedTriggers="STARTUP"
+    resourceLocation="http://abc.de/fgh.jkl"
+	isUrl="true"
+	connectionTimeout="1000"
+	readTimeout="2000"
+	destinationPath="your/tempFolder"
+	destinationFile="name.ending"
+	priority="500"
+	estimatedSize="5"s
+/>
+
+* `resourceLocation` specifies where the data is stored you want to fetch. This can be an URI or an URL. In case of an URL the files should be the direct response of the server
+* `isUrl` declares the `resourceLocation` an URL. This leads to another API called within this plugin. Default is `false`
+** `connectionTimeout` the time the plugin waits for the connection to be established in case of an URL
+** `readTimeout` the time the plugin waits for data to be recieved after the connection was established in case of an URL
+* `destinationPath` specifies the folder the data should be stored. The safest is to specify a full path
+* `destinationFile` the name the fetched file will have on the disk
