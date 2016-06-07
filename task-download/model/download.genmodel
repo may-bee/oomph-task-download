@@ -24,7 +24,7 @@
       extensibleProviderFactory="true"
       childCreationExtenders="true"
       fileExtensions="setup"
-      publicationLocation="/task-download-updatesite/model/Task-download-1.0.ecore"
+      publicationLocation="/oomph-task-download/task-download-updatesite/model/Oomph-task-download.ecore"
       ecorePackage="download.ecore#/">
     <genClasses ecoreClass="download.ecore#//downloadTask">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute download.ecore#//downloadTask/resourceLocation"/>
