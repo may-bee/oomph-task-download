@@ -288,7 +288,7 @@ public class downloadPackageImpl extends EPackageImpl implements downloadPackage
         IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
     // Create resource
-    createResource("https://raw.githubusercontent.com/maybeec/oomph-task-download/master/task-download-updatesite/model/Task-download-1.0.ecore");
+    createResource("https://raw.githubusercontent.com/maybeec/oomph-task-download/master/task-download-updatesite/model/Oomph-task-download.ecore");
 
     // Create annotations
     // http://www.eclipse.org/emf/2002/Ecore
@@ -309,7 +309,7 @@ public class downloadPackageImpl extends EPackageImpl implements downloadPackage
   {
     String source = "http://www.eclipse.org/emf/2002/Ecore";
     addAnnotation(this, source, new String[] { "schemaLocation",
-        "https://raw.githubusercontent.com/maybeec/oomph-task-download/master/task-download-updatesite/model/Task-download-1.0.ecore" });
+        "https://raw.githubusercontent.com/maybeec/oomph-task-download/master/task-download-updatesite/model/Oomph-task-download.ecore" });
   }
 
   /**
@@ -321,8 +321,8 @@ public class downloadPackageImpl extends EPackageImpl implements downloadPackage
   protected void createEnablementAnnotations()
   {
     String source = "http://www.eclipse.org/oomph/setup/Enablement";
-    addAnnotation(downloadTaskEClass, source, new String[] { "variableName", "p2.download", "repository", "http://download.example.org/task-download/updates",
-        "installableUnits", "task-download.feature.group" });
+    addAnnotation(downloadTaskEClass, source, new String[] { "variableName", "p2.download", "repository",
+        "https://maybeec.github.io/oomph-task-download/update", "installableUnits", "task-download.feature.group" });
   }
 
   /**

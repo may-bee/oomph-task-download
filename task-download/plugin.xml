@@ -9,7 +9,7 @@
    <extension point="org.eclipse.emf.ecore.generated_package">
       <!-- @generated download -->
       <package
-            uri="http://www.example.org/task-download/1.0"
+            uri="http://maybeec.github.io/oomph-task-download/1.0"
             class="com.github.maybeec.oomph.task.download.downloadPackage"
             genModel="model/download.genmodel"/>
    </extension>

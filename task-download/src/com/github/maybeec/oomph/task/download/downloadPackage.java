@@ -21,7 +21,7 @@ import org.eclipse.emf.ecore.EPackage;
  * <!-- end-user-doc -->
  * @see com.github.maybeec.oomph.task.download.downloadFactory
  * @model kind="package"
- *        annotation="http://www.eclipse.org/emf/2002/Ecore schemaLocation='https://raw.githubusercontent.com/maybeec/oomph-task-download/master/task-download-updatesite/model/Task-download-1.0.ecore'"
+ *        annotation="http://www.eclipse.org/emf/2002/Ecore schemaLocation='https://raw.githubusercontent.com/maybeec/oomph-task-download/master/task-download-updatesite/model/Oomph-task-download.ecore'"
  * @generated
  */
 public interface downloadPackage extends EPackage
@@ -40,7 +40,7 @@ public interface downloadPackage extends EPackage
    * <!-- end-user-doc -->
    * @generated
    */
-  String eNS_URI = "http://www.example.org/task-download/1.0";
+  String eNS_URI = "http://maybeec.github.io/oomph-task-download/1.0";
 
   /**
    * The package namespace name.
