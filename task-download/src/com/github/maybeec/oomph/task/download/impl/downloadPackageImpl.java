@@ -322,7 +322,7 @@ public class downloadPackageImpl extends EPackageImpl implements downloadPackage
   {
     String source = "http://www.eclipse.org/oomph/setup/Enablement";
     addAnnotation(downloadTaskEClass, source, new String[] { "variableName", "p2.download", "repository",
-        "https://maybeec.github.io/oomph-task-download/update", "installableUnits", "task-download.feature.group" });
+        "https://maybeec.github.io/oomph-task-download/update", "installableUnits", "com.github.maybeec.oomph.task.download.feature.feature.group" });
   }
 
   /**
