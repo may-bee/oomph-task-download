@@ -34,6 +34,7 @@ import com.github.maybeec.oomph.task.download.core.SetupTaskLogger;
  *
  * @generated
  */
+@SuppressWarnings("restriction")
 public class downloadTaskImpl extends SetupTaskImpl implements downloadTask
 {
   /**

@@ -10,6 +10,7 @@ import org.eclipse.oomph.setup.log.ProgressLog.Severity;
  * @author sholzer
  *
  */
+@SuppressWarnings("restriction")
 public abstract class SetupTaskLogger
 {
 
