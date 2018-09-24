@@ -1,3 +1,7 @@
+= Deprecation!
+
+This project has been archieved in favor of the `ResourceCopyTask` implementation served by Oomph!
+
 = Oomph Download Setup Task
 
 == Purpose
